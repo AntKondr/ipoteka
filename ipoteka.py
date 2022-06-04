@@ -33,6 +33,7 @@ def correction():
 
 # proc  это процентная ставка месячная
 proc = 0.683333
+# main_dolg константа долга
 main_dolg = 2257000
 srok = 0
 want_srok = int(input("enter want srok: "))
