@@ -31,6 +31,7 @@ def correction():
     generalpays = []
 
 
+# proc  это процентная ставка месячная
 proc = 0.683333
 main_dolg = 2257000
 srok = 0
