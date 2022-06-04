@@ -43,3 +43,5 @@ generalpays = []
 main_calc()
 print(generalpays)
 print(len(generalpays))
+
+test
