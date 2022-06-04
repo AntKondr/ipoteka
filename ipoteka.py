@@ -36,7 +36,7 @@ main_dolg = 2257000
 srok = 0
 want_srok = int(input("enter want srok: "))
 print()
-main_dolgpay = 5000
+main_dolgpay = 7000
 procpays = []
 dolgpays = []
 generalpays = []
