@@ -31,12 +31,21 @@ def correction():
     generalpays = []
 
 
+def check_srok():
+    value = input("enter want srok: ")
+    if value.isdigit():
+        return int(value)
+    else:
+        print("Enter NUMBER please!")
+        check_srok()
+
+
 # proc  это процентная ставка месячная
 proc = 0.683333
 # main_dolg константа долга
 main_dolg = 2257000
 srok = 0
-want_srok = int(input("enter want srok: "))
+want_srok = check_srok()
 print()
 main_dolgpay = 7000
 procpays = []
