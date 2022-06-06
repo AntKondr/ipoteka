@@ -30,7 +30,7 @@ def correction():
 
 
 def set_srok():
-    value = input("enter your wanted srok: ")
+    value = input("Enter your wanted srok: ")
     if value.isdigit():
         value = int(value)
         return value
@@ -50,6 +50,5 @@ procpays = []
 dolgpays = []
 generalpays = []
 main_calc()
-print(generalpays)
-print(len(generalpays))
-print(dolg)
+print(generalpays, '\n')
+print('You have', len(generalpays), 'paynments')
