@@ -53,3 +53,4 @@ main_calc()
 print(generalpays)
 print(len(generalpays))
 print(dolg)
+#test change for master
